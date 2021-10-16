@@ -123,8 +123,7 @@ function HeadSection(props) {
                         <Typography
                           variant={isWidthUp("lg", width) ? "h3" : "h4"}
                         >
-                          Free Template for building a SaaS app using
-                          Material-UI
+                          Venture Trial
                         </Typography>
                       </Box>
                       <div>
@@ -137,7 +136,7 @@ function HeadSection(props) {
                             elitr, sed diam nonumy eirmod tempor invidunt
                           </Typography>
                         </Box>
-                        <Button
+                        {/* <Button
                           variant="contained"
                           color="secondary"
                           fullWidth
@@ -146,14 +145,14 @@ function HeadSection(props) {
                           href="https://github.com/dunky11/react-saas-template"
                         >
                           Download from GitHub
-                        </Button>
+                        </Button> */}
                       </div>
                     </Box>
                   </Grid>
                   <Hidden smDown>
                     <Grid item md={6}>
                       <ZoomImage
-                        src={`${process.env.PUBLIC_URL}/images/logged_out/headerImage.jpg`}
+                        src={`${process.env.PUBLIC_URL}/images/logged_out/blogPost6.jpg`}
                         className={classes.image}
                         alt="header example"
                       />
